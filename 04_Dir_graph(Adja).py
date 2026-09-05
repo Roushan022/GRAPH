@@ -10,7 +10,6 @@ class Graph:
         self.add_vertex(dest)
 
         self.adjList[src].append(dest)
-        # self.adjList[dest].append(src)
 
     def PrintGraph(self):
         for vertex in self.adjList:
